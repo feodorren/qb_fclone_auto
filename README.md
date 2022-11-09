@@ -76,31 +76,31 @@ systemctl status qbt  #软件运行状态查询
 
 ### 2.1 下载fclone文件
 根据版本自行前往下载
-`
+```
 https://github.com/mawaya/rclone
-`
+```
 根据我的服务器amd64下载的版本为以下：
-`
+```
 https://github.com/mawaya/rclone/releases/download/fclone-v0.4.1/fclone-v0.4.1-linux-amd64.zip
-`
+```
 在本地解压后得到fclone文件。
 
 ### 2.2 配置fclone
 上传fclone文件至服务器`/usr/bin`文件夹内
 
 给fclone赋予执行权限
-`
+```
 chmod +x /usr/bin/fclone
-`
+```
 
-### 2.3 请自行获取google drive api 下的ID  和 secret
+### 2.3 自行获取google drive api 下的ID  和 secret
 
 https://rclone.org/drive/
  参考Making your own client_id章节
 
-### 2.4 获取sa账号并保存以后使用。
+### 2.4 获取sa账号并保存以后使用
 
-#### 2.4.1 创建sa账号，保存至以后使用。
+#### 2.4.1 创建sa账号，保存至以后使用
 
 https://youtu.be/SkmulhqSXm0
 #### 2.4.2 添加sa账号到群组
@@ -108,6 +108,7 @@ https://youtu.be/SkmulhqSXm0
 https://youtu.be/I1F_z1QKoGs
 
 ### 2.5 上传sa账号清单和sa账号json结尾文件至服务器`/home/sa_account/`下
+例如 `/home/sa_account/sa_all.xlsx` 和 `/home/sa_account/sa/`
 
 ### 2.6 配置fclone
 #### 2.6.1 输入
@@ -116,7 +117,7 @@ https://youtu.be/I1F_z1QKoGs
 参考https://rclone.org/drive/ 的Configuration 章节
 
 其中需要填写sa账号列表地址以及sa账号文件夹
-
+例如 `/home/sa_account/sa_all.xlsx` 和 `/home/sa_account/sa/`
 
 远程获取token
 
