@@ -3,10 +3,19 @@ use qbittorrent to download files, then fclone them to upload files, finally del
 
 ## 0. 参考和鸣谢
 
-```https://blog.ba7lcy.com/windows-xia-shi-yong-sh-jiao-ben-yi-qbittorrent-rclone-zi-dong-shang-chuan-jiao-ben-wei-li/```
-```https://hostloc.com/thread-639215-1-1.html```
-```https://hostloc.com/thread-612238-1-1.html```
-```https://p3terx.com/archives/offline-download-of-onedrive-gdrive.html```
+```
+https://blog.ba7lcy.com/windows-xia-shi-yong-sh-jiao-ben-yi-qbittorrent-rclone-zi-dong-shang-chuan-jiao-ben-wei-li/
+```
+
+```
+https://hostloc.com/thread-639215-1-1.html
+```
+```
+https://hostloc.com/thread-612238-1-1.html
+```
+```
+https://p3terx.com/archives/offline-download-of-onedrive-gdrive.html
+```
 
 
 ## 1. 安装种子下载服务器qbittorrent
