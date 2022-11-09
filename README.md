@@ -164,6 +164,8 @@ chmod +x /root/qb_auto.sh
 ```
 
 修改qbittorrent设置
-
+```
+bash /root/qb_auto.sh  "%N" "%F" "%R" "%D" "%C" "%Z" "%I"
+```
 ![image](https://user-images.githubusercontent.com/22808709/200754482-d33b97cc-75e4-4797-ab1b-6df54bd39fd2.png)
 
