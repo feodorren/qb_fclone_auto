@@ -7,7 +7,7 @@ files_num=$5
 torrent_size=$6
 file_hash=$7
 
-qb_version="4.4.2"
+qb_version="4.4.2" #请修改版本号为qbittorrent的实际版本号
 qb_username="admin"
 qb_password="adminadmin"
 qb_web_url="http://localhost:8080"
@@ -81,10 +81,10 @@ function qb_del(){
 function rclone_copy(){
 	if [ ${type} == "file" ]
 	then
-		rclone_copy_cmd=$(rclone -v copy --transfers ${rclone_parallel} --log-file  ${log_dir}/qbauto_copy.log "${content_dir}" ${rclone_dest}:qbauto/)
+		rclone_copy_cmd=$(fclone -v copy --transfers ${rclone_parallel} --log-file  ${log_dir}/qbauto_copy.log "${content_dir}" ${rclone_dest}:qbauto/)
 	elif [ ${type} == "dir" ]
 	then
-		rclone_copy_cmd=$(rclone -v copy --transfers ${rclone_parallel} --log-file ${log_dir}/qbauto_copy.log "${content_dir}"/ ${rclone_dest}:qbauto/"${torrent_name}")
+		rclone_copy_cmd=$(fclone -v copy --transfers ${rclone_parallel} --log-file ${log_dir}/qbauto_copy.log "${content_dir}"/ ${rclone_dest}:qbauto/"${torrent_name}")
 	fi
 }
 
