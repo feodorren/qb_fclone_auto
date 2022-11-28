@@ -153,10 +153,10 @@ https://youtu.be/I1F_z1QKoGs
   至此feclone配置完毕。
 
 ## 3. 上传脚本，并配置自动运行。
-在服务器上执行命令，下载脚本
+在服务器上执行命令，下载脚本。
 
 ```
-wget https://raw.githubusercontent.com/feodorren/qb_fclone/main/qb_auto.sh
+wget https://raw.githubusercontent.com/feodorren/qb_fclone_auto/main/qb_auto.sh
 ```
 给脚本可执行权限
 ```
